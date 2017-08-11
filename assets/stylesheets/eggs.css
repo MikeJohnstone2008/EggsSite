@@ -1,0 +1,72 @@
+* {
+    /*border: 1px solid red;*/
+    /*margin: 0;*/
+}
+
+body  {
+  background-color: white;
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+  color: #f38481;
+  margin-bottom: -10px;
+  font-size: 1.8em;
+  line-height: 1.4;
+  font-weight: normal;
+
+}
+p {
+  font-style: italic;
+  font-family: 'Droid Serif', serif;
+}
+header  {
+  padding-left: 50px;
+}
+.egg  {
+  width: 48%;
+
+}
+li  {
+  /*display: inline;*/
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: white;
+  height: 500px;
+}
+
+
+.eggimage {
+  height: 150px;
+  width: 200px;
+}
+footer  {
+  clear: both;
+}
+#hard_boiled  {
+  background-color: #ec7471;
+}
+#soft_boiled  {
+  background-color: #93dc88 ;
+}
+#ss-up  {
+  background-color: #85cdf4 ;
+}
+#poached  {
+  background-color: #c097cc ;
+}
+#over_easy  {
+  background-color: #2bcbc5 ;
+}
+#over_hard  {
+  background-color: #f3bfb9 ;
+}
+#scrambled  {
+  background-color: #e3d578 ;
+}
+#omelette {
+  background-color: #7191e4 ;
+}
