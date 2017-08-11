@@ -1,6 +1,6 @@
 * {
     /*border: 1px solid red;*/
-    /*margin: 0;*/
+    margin: 0;
 }
 
 body  {
@@ -9,10 +9,13 @@ body  {
   font-family: 'Montserrat', sans-serif;
 
 }
+header  {
+  padding: 25px;
+}
 
 h1 {
   color: #f38481;
-  margin-bottom: -10px;
+  margin-top: 10px;
   font-size: 1.8em;
   line-height: 1.4;
   font-weight: normal;
@@ -26,7 +29,7 @@ header  {
   padding-left: 50px;
 }
 .egg  {
-  width: 48%;
+  width: 50%;
 
 }
 li  {
@@ -36,13 +39,22 @@ li  {
   text-align: center;
   color: white;
   height: 500px;
+
 }
 
 
 .eggimage {
-  height: 150px;
-  width: 200px;
+  height: 350px;
+  width: 350px;
 }
+
+.description {
+  font-style: italic;
+  max-width: 70%;
+  margin: 10px auto;
+}
+
+
 footer  {
   clear: both;
 }
@@ -50,7 +62,7 @@ footer  {
   background-color: #ec7471;
 }
 #soft_boiled  {
-  background-color: #93dc88 ;
+  background-color: #93dc88;
 }
 #ss-up  {
   background-color: #85cdf4 ;
@@ -69,4 +81,30 @@ footer  {
 }
 #omelette {
   background-color: #7191e4 ;
+}
+footer  {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 80px;
+}
+.made_by  {
+  float: left;
+  text-decoration: none;
+}
+.social_links {
+  float: right;
+}
+footer img {
+  height: 40px;
+  width: 40px;
+  padding-right: 20px;
+}
+.square  {
+  height: 2px;
+  width: 20px;
+  background-color: white;
+  display: inline-block;
+
 }
