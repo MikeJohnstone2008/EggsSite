@@ -90,6 +90,11 @@ footer  {
 #omelette {
   background-color: #7191e4 ;
 }
+#baked_eggs {
+  width: 100%;
+  background-color: white;
+  color: #40E0D0;
+}
 footer  {
   background-color: black;
   color: white;
@@ -117,5 +122,9 @@ footer img {
   width: 20px;
   background-color: white;
   display: inline-block;
-
+}
+.square#baked_eggs {
+  background-color: #40E0D0;
+  height: 2px;
+  width: 20px;
 }
